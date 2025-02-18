@@ -19,13 +19,37 @@ input{
   margin-left: 10px;
   border-radius: 5px;
   border-color: 1px solid black;
+  text-align: center;
 }
 
 
-.content-cards{
-  width: 100%;
+
+
+.card{
+  width: 20%;
+  height: fit-content;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.img-card{
+  width: 300px;
+  height: 200px;
+  margin: 0px auto;
+}
+
+.content-paginator{
+  margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 10px;
+  gap: 10px;
+}
+
+.buttonPaginator{
+  width: 100px;
+  height: 35px;
+  background: black;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
 }

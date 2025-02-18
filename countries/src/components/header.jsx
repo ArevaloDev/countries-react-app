@@ -10,7 +10,7 @@ export default function Header(){
                     <h3>Countries App</h3>
                 </div>
                 <div>
-                    <input type="text" placeholder="Ingrese un pais..."/>
+                    <input type="text" placeholder="Buscar pais..."/>
                 </div>
             </div>
         
